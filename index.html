@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página do Pedro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* CSS personalizado */
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .navbar {
+            box-shadow: 0 2px 4px rgba(0,0,0,.1);
+        }
+
+        .navbar-nav .nav-link {
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #ffc107 !important;
+        }
+
+        .main-content {
+            background: linear-gradient(135deg, #17a2b8, #20c997);
+        }
+
+        h1, h2 {
+            font-weight: bold;
+        }
+
+        .info-box {
+            border-left: 4px solid #007bff;
+            padding-left: 15px;
+        }
+
+        .wow-box {
+            border-left: 4px solid #28a745;
+            padding-left: 15px;
+        }
+
+        footer {
+            border-top: 1px solid #343a40;
+        }
+    </style>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+        <div class="container">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about-us">Sobre nós</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Fale Conosco</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="p-5 mb-4 text-white rounded-3 main-content">
+            <h1 class="display-4">Conteúdo principal</h1>
+            <p class="lead">Esse é um parágrafo do meu conteúdo principal. Ele está num container e tem um fundo gradiente.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 info-box mb-4">
+                <h2 class="text-primary">Algumas informações interessantes</h2>
+                <p class="text-muted">Os polvos são criaturas fascinantes do mundo marinho, conhecidas por sua inteligência impressionante e habilidades de camuflagem.</p>
+            </div>
+            <div class="col-md-6 wow-box mb-4">
+                <h2 class="text-success">Uau, muito legal!</h2>
+                <p>Eu utilizei o ChatGPT para gerar o texto anterior sobre polvos. Essa ferramenta de inteligência artificial é capaz de fornecer informações detalhadas e interessantes.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-4">
+        Atividade prática de Bootstrap. Copyright 2024 Pedro Aranha.
+    </footer>
+</body>
+</html>
